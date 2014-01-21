@@ -1,0 +1,22 @@
+body {
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#hleft {
+    width: 400px;
+    float: left;
+    background-color: red;
+    height: 400px;
+}
+
+#hright {
+    width: 500px;
+    float: left;
+    
+}
+
+
+
+
