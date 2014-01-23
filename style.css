@@ -2,21 +2,32 @@ body {
     width: 900px;
     margin: 0 auto;
     padding: 10px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
-#hleft {
-    width: 400px;
-    float: left;
-    background-color: red;
-    height: 400px;
-}
-
-#hright {
-    width: 500px;
-    float: left;
+h1 {
+    font-weight:bold;
+    font-size: 1.5em;
     
 }
 
+p {
+    font-size: 1.2em;
+    line-height:130%;
+}
 
+.oneline {
+    background-color:skyblue;
+    color: white;
+    padding: 10px 0 10px 10px;
+}
 
+.onecolumn {
+    padding: 10px;
+}
 
+.onecolumn p {
+    padding: 4px;
+    padding-left: 0;
+}
