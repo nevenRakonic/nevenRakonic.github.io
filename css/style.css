@@ -1,4 +1,4 @@
-/* basic specs*/
+/* basic specs */
 body {
     width: 900px;
     margin: 0 auto;
@@ -24,28 +24,17 @@ p {
 }
 
 ul {
-    margin-left:25px;
+    margin-left: 35px;
 
 }
 
 ul li {
     font-size:1.1em;
-    line-height:120%;    
+    line-height:120%;
+    list-style-type:square;
 }
 
-ul li:before {
-      
-      
-      content:'\25A0';
-      display: block;
-      position: relative;
-      max-width: 0px;
-      max-height: 0px;
-      left: -25px;
-      top: -0px;
-      color: skyblue;
-      font-size: 20px;
-    }
+
 
 /* structural classes */
 .oneline {
