@@ -1,3 +1,4 @@
+/* basic specs*/
 body {
     width: 900px;
     margin: 0 auto;
@@ -8,8 +9,7 @@ body {
 
 h1   {
     font-size: 2.2em;
-    font-weight:bold;
-    letter-spacing: 5px;
+    font-weight:bold;    
     line-height:130%;
 }
 
@@ -22,6 +22,30 @@ p {
     font-size: 1.2em;
     line-height:130%;
 }
+
+ul {
+    margin-left:25px;
+
+}
+
+ul li {
+    font-size:1.1em;
+    line-height:120%;    
+}
+
+ul li:before {
+      
+      
+      content:'\25A0';
+      display: block;
+      position: relative;
+      max-width: 0px;
+      max-height: 0px;
+      left: -25px;
+      top: -0px;
+      color: skyblue;
+      font-size: 20px;
+    }
 
 /* structural classes */
 .oneline {
@@ -47,13 +71,12 @@ p {
     float: right;
 }
 
-
-
 .twocolumn {
     float: left;
-    width: 450px;    
+    width: 440px; 
+    
 }
-/* text edit classes */
+/* text related classes */
 
 strong {
     font-weight:700;
